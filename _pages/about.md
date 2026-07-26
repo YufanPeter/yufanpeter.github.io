@@ -89,27 +89,17 @@ redirect_from:
     <article class="project project--medical" data-reveal>
       <div class="project__info">
         <div class="project__number">PROJECT / 01</div>
-        <h3>MedMARS</h3>
+        <h3><a href="{{ site.baseurl }}/projects/medmars/">MedMARS</a></h3>
         <p class="project__lede">A LangGraph-based medical assistant that routes questions across diagnosis, medication consultation, general QA, and visual question answering.</p>
-        <div class="project__metrics">
-          <div><strong>96.5%</strong><span>Hit@5</span></div>
-          <div><strong>0.81</strong><span>MRR</span></div>
-          <div><strong>0.845</strong><span>NDCG@5</span></div>
-        </div>
-        <ul class="project__details">
-          <li>Orchestrator with safety routing, query rewriting, conditional workflows, and multi-turn memory.</li>
-          <li>GraphRAG + VectorRAG over 47K medical records using FAISS, BM25, and reciprocal rank fusion.</li>
-          <li>LoRA-tuned Mistral-7B and Qwen2-VL-7B with CPU-GPU memory scheduling.</li>
-        </ul>
-        <a class="text-link" href="https://github.com/Cruise-pp/MedMARS" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="{{ site.baseurl }}/projects/medmars/">View case study <span aria-hidden="true">→</span></a>
       </div>
       <figure class="project__visual project__visual--generated">
-        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/medmars-handdrawn-pipeline-v4.png" target="_blank" rel="noopener" aria-label="Open the full-size code-verified MedMARS multi-agent pipeline">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/projects/medmars/" aria-label="View the MedMARS case study">
           <img class="generated-diagram" src="{{ site.baseurl }}/images/medmars-handdrawn-pipeline-v4.png" alt="Hand-drawn MedMARS pipeline: an orchestrator performs safety, intent routing, and query rewriting; an optional Vision Agent precedes Diagnosis, Medication, or General QA subagents; evidence then merges into a faithfulness-aware synthesizer and a clear, safe response.">
         </a>
         <figcaption class="generated-diagram__caption">
           <span>CODE-VERIFIED HAND-DRAWN PIPELINE</span>
-          <span>CLICK TO EXPAND ↗</span>
+          <span>VIEW CASE STUDY →</span>
         </figcaption>
       </figure>
     </article>
@@ -117,32 +107,21 @@ redirect_from:
     <article class="project project--commerce" data-reveal>
       <div class="project__info">
         <div class="project__number">PROJECT / 02</div>
-        <div class="project__award" aria-label="ByteDance Project Excellence Award, 9 out of 80">
+        <div class="project__award" aria-label="ByteDance Project Achievement Award, top 12 percent, 9 out of 80">
           <img src="{{ site.baseurl }}/images/bytedance.svg" alt="ByteDance">
-          <div><strong>PROJECT EXCELLENCE AWARD</strong><span>9 OUT OF 80</span></div>
+          <div><strong>BYTEDANCE PROJECT ACHIEVEMENT AWARD</strong><span>TOP 12% · 9 OUT OF 80</span></div>
         </div>
-        <h3>Multimodal<br>E-commerce Agent</h3>
+        <h3><a href="{{ site.baseurl }}/projects/cartpilot/">Multimodal<br>E-commerce Agent</a></h3>
         <p class="project__lede">A controllable shopping agent combining image-text retrieval, deterministic tool orchestration, and structured streaming responses.</p>
-        <div class="project__metrics">
-          <div><strong>+14%</strong><span>Recall@5</span></div>
-          <div><strong>+6%</strong><span>NDCG@5</span></div>
-          <div><strong>100%</strong><span>Recall@10*</span></div>
-        </div>
-        <ul class="project__details">
-          <li>Hybrid retrieval with query understanding, hard filters, multimodal embeddings, and reranking.</li>
-          <li>Function-calling intent router across seven deterministic tools with 100% routing accuracy.</li>
-          <li>SSE pipeline for staged delivery of decisions, product cards, and generated text.</li>
-        </ul>
-        <a class="text-link" href="https://github.com/YufanPeter/E-commerce-AI-Agent" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
-        <p class="project__footnote">* Structured-query Recall@10.</p>
+        <a class="text-link" href="{{ site.baseurl }}/projects/cartpilot/">View case study <span aria-hidden="true">→</span></a>
       </div>
       <figure class="project__visual project__visual--generated">
-        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/cartpilot-handdrawn-pipeline-v4.png" target="_blank" rel="noopener" aria-label="Open the full-size code-verified CartPilot controlled-agent pipeline">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/projects/cartpilot/" aria-label="View the Multimodal E-commerce Agent case study">
           <img class="generated-diagram" src="{{ site.baseurl }}/images/cartpilot-handdrawn-pipeline-v4.png" alt="Hand-drawn CartPilot pipeline: text and voice enter a function router while images use VLM extraction and bypass routing; seven deterministic tools use structured facts, selected recommendation paths run hybrid retrieval, and ToolResult flows through a composer and SSE to SwiftUI.">
         </a>
         <figcaption class="generated-diagram__caption">
           <span>CODE-VERIFIED HAND-DRAWN PIPELINE</span>
-          <span>CLICK TO EXPAND ↗</span>
+          <span>VIEW CASE STUDY →</span>
         </figcaption>
       </figure>
     </article>
