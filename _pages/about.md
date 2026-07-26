@@ -59,10 +59,9 @@ redirect_from:
         <time>Mar 2026 - Present</time>
       </div>
       <ul>
-        <li><span class="star-label">Situation</span>Root cause analysis for cloud incidents requires correlating change signals, incident context, and historical cases.</li>
-        <li><span class="star-label">Task</span>Develop a reliable hierarchical multi-agent system that can generate and validate root-cause hypotheses.</li>
-        <li><span class="star-label">Action</span>Designed specialized agents to analyze different change signals, an aggregation agent to synthesize findings, and a retrieval layer with confidence filtering and caching to surface relevant historical incidents.</li>
-        <li><span class="star-label">Result</span>Added fallback handling and a reviewer layer, reducing problematic RCA samples by about 10% and improving pass rate by about 30%.</li>
+        <li>Developed a hierarchical multi-agent RCA system to automate diagnosis of cloud incidents by correlating change signals, incident context, and historical cases.</li>
+        <li>Orchestrated specialized agents to analyze different signals, aggregate root-cause hypotheses, and retrieve relevant incident history using confidence filtering and caching.</li>
+        <li>Improved reliability with fallback handling and reviewer validation, reducing problematic RCA samples by about 10% and increasing pass rate by about 30%.</li>
       </ul>
     </div>
   </article>
