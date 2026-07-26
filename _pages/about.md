@@ -15,34 +15,20 @@ redirect_from:
     My recent work focuses on <strong>AI Agent Development, Harness Engineering, Self-Evolving Agent</strong>.
     I’m currently developing multi-agent system for root cause analysis @ <strong>Microsoft</strong>.
   </p>
+  <div class="home-interests">
+    <span>Interests</span>
+    <ul>
+      <li>Reinforcement Learning</li>
+      <li>Agent Systems</li>
+      <li>RAG</li>
+      <li>Multimodal LLMs</li>
+    </ul>
+  </div>
   <div class="home-actions">
     <a class="home-button home-button--primary" href="/projects/">View projects <span aria-hidden="true">↗</span></a>
     <a class="home-button" href="mailto:{{ site.author.email }}">Email me</a>
   </div>
 </div>
-
-<section class="home-section" id="research" aria-labelledby="focus-title">
-  <div class="section-heading">
-    <h2 id="focus-title">Research</h2>
-  </div>
-  <div class="focus-grid focus-grid--three">
-    <article class="focus-card">
-      <span>01</span>
-      <h3>Agentic AI systems</h3>
-      <p>Multi-agent orchestration, tool use, workflow design, and reliable reasoning for complex tasks.</p>
-    </article>
-    <article class="focus-card">
-      <span>02</span>
-      <h3>Retrieval and knowledge</h3>
-      <p>Hybrid RAG, GraphRAG, reranking, memory, and evaluation for grounded language-model applications.</p>
-    </article>
-    <article class="focus-card">
-      <span>03</span>
-      <h3>Multimodal and efficient LLMs</h3>
-      <p>Vision-language systems, parameter-efficient fine-tuning, and practical on-device inference.</p>
-    </article>
-  </div>
-</section>
 
 <section class="home-section" id="experience" aria-labelledby="experience-title">
   <div class="section-heading">
