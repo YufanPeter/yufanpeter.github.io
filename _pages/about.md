@@ -13,9 +13,8 @@ redirect_from:
   <h1 id="home-title">Hi, I’m Yufan.</h1>
   <p class="home-lead">
     I’m an M.S. student in <strong>Electrical and Computer Engineering at UC San Diego</strong>.
-    My work focuses on reliable AI agents, retrieval-augmented generation, and multimodal
-    systems. I’m currently developing multi-agent tools for cloud incident analysis at
-    <strong>Microsoft</strong>.
+    My recent work focuses on <strong>AI Agent Development, Harness Engineering, Self-Evolving Agent</strong>.
+    I’m currently developing multi-agent system for root cause analysis @ <strong>Microsoft</strong>.
   </p>
   <div class="home-actions">
     <a class="home-button home-button--primary" href="/projects/">View projects <span aria-hidden="true">↗</span></a>
@@ -108,16 +107,4 @@ redirect_from:
     </div>
     <span aria-hidden="true">↗</span>
   </a>
-</section>
-
-<section class="home-section home-section--skills" aria-labelledby="skills-title">
-  <div class="section-heading">
-    <p>Toolkit</p>
-    <h2 id="skills-title">Technologies I work with</h2>
-  </div>
-  <div class="skill-groups">
-    <p><strong>Languages</strong><span>Python, Java, C++, C, SQL, Git</span></p>
-    <p><strong>Agents &amp; retrieval</strong><span>LangGraph, LangChain, MCP, GraphRAG, Vector RAG, BM25, ChromaDB, FAISS</span></p>
-    <p><strong>Machine learning</strong><span>PyTorch, PEFT / LoRA, Transformers, NLP, multimodal LLMs</span></p>
-  </div>
 </section>
