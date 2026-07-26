@@ -112,11 +112,11 @@ redirect_from:
         <a class="text-link" href="https://github.com/Cruise-pp/MedMARS" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
       </div>
       <figure class="project__visual project__visual--generated">
-        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/medmars-handdrawn-v2.png" target="_blank" rel="noopener" aria-label="Open the full-size illustrated MedMARS project story">
-          <img class="generated-diagram" src="{{ site.baseurl }}/images/medmars-handdrawn-v2.png" alt="Hand-drawn MedMARS story: a person shares a health question and medical image, an AI guide consults diagnosis, medication safety, and trusted health knowledge, then returns a reassuring answer.">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/medmars-handdrawn-pipeline-v3.png" target="_blank" rel="noopener" aria-label="Open the full-size hand-drawn MedMARS pipeline">
+          <img class="generated-diagram" src="{{ site.baseurl }}/images/medmars-handdrawn-pipeline-v3.png" alt="Hand-drawn MedMARS pipeline: ask with text and image, understand safety and intent, consult diagnosis, medication, medical QA, and vision branches, synthesize grounded evidence, then respond with a clear and safe answer.">
         </a>
         <figcaption class="generated-diagram__caption">
-          <span>ILLUSTRATED PROJECT STORY</span>
+          <span>HAND-DRAWN PROJECT PIPELINE</span>
           <span>CLICK TO EXPAND ↗</span>
         </figcaption>
       </figure>
@@ -142,11 +142,11 @@ redirect_from:
         <p class="project__footnote">* Structured-query Recall@10.</p>
       </div>
       <figure class="project__visual project__visual--generated">
-        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/cartpilot-handdrawn-v2.png" target="_blank" rel="noopener" aria-label="Open the full-size illustrated CartPilot project story">
-          <img class="generated-diagram" src="{{ site.baseurl }}/images/cartpilot-handdrawn-v2.png" alt="Hand-drawn CartPilot story: a shopper asks by voice, text, or image; an AI guide discovers and compares products, then returns a small personalized selection.">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/cartpilot-handdrawn-pipeline-v3.png" target="_blank" rel="noopener" aria-label="Open the full-size hand-drawn CartPilot pipeline">
+          <img class="generated-diagram" src="{{ site.baseurl }}/images/cartpilot-handdrawn-pipeline-v3.png" alt="Hand-drawn CartPilot pipeline: ask by text, voice, or image, route through shopping tools, retrieve with filters, vectors, and keywords, compare and personalize, then deliver product cards and an answer with a memory feedback loop.">
         </a>
         <figcaption class="generated-diagram__caption">
-          <span>ILLUSTRATED PROJECT STORY</span>
+          <span>HAND-DRAWN PROJECT PIPELINE</span>
           <span>CLICK TO EXPAND ↗</span>
         </figcaption>
       </figure>
