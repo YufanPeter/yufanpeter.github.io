@@ -37,8 +37,7 @@ redirect_from:
         <p class="section-index" data-reveal>01 / Profile</p>
         <h1 id="hero-title" data-reveal>
           AI engineer focused on<br>
-          <em>multimodal agents</em> and<br>
-          retrieval systems.
+          <em>AI Agent System.</em>
         </h1>
         <div class="hero__bottom" data-reveal>
           <p>
