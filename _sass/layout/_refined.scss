@@ -511,16 +511,45 @@ a {
   margin-bottom: 0;
 }
 
+.experience-body .star-label {
+  display: inline-block;
+  min-width: 4.8rem;
+  color: var(--ink);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .education-list {
   border-top: 1px solid var(--hairline);
 }
 
 .education-item {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
   padding: 1.6rem 0;
   border-bottom: 1px solid var(--hairline);
+}
+
+.education-logo {
+  display: grid;
+  width: 9rem;
+  min-height: 4rem;
+  padding: 0.7rem 0.8rem;
+  place-items: center;
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.education-logo img {
+  display: block;
+  width: 100%;
+  max-height: 2.65rem;
+  object-fit: contain;
 }
 
 .education-item h3 {
@@ -821,10 +850,18 @@ a {
   }
 
   .experience-heading,
-  .education-item,
   .project-card__topline {
     display: grid;
     gap: 0.5rem;
+  }
+
+  .education-item {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .education-logo {
+    margin-bottom: 0.2rem;
   }
 
   .project-metrics {

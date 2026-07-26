@@ -56,15 +56,16 @@ redirect_from:
     <div class="experience-body">
       <div class="experience-heading">
         <div>
-          <p class="experience-meta">AI Application Development Intern</p>
-          <h3>Multi-agent root cause analysis for cloud incidents</h3>
+          <p class="experience-meta">App Development Intern</p>
+          <h3>Multi-Agent Root Cause Analysis for Cloud Incidents</h3>
         </div>
         <time>Mar 2026 - Present</time>
       </div>
       <ul>
-        <li>Developed a hierarchical multi-agent RCA system that reasons over change signals, incident context, and historical cases.</li>
-        <li>Built a retrieval-augmented knowledge layer with vector search, confidence filtering, and caching to improve inference efficiency.</li>
-        <li>Introduced fallback and reviewer mechanisms, reducing problematic RCA samples by about 10% and improving pass rate by about 30%.</li>
+        <li><span class="star-label">Situation</span>Root cause analysis for cloud incidents requires correlating change signals, incident context, and historical cases.</li>
+        <li><span class="star-label">Task</span>Develop a reliable hierarchical multi-agent system that can generate and validate root-cause hypotheses.</li>
+        <li><span class="star-label">Action</span>Designed specialized agents to analyze different change signals, an aggregation agent to synthesize findings, and a retrieval layer with confidence filtering and caching to surface relevant historical incidents.</li>
+        <li><span class="star-label">Result</span>Added fallback handling and a reviewer layer, reducing problematic RCA samples by about 10% and improving pass rate by about 30%.</li>
       </ul>
     </div>
   </article>
@@ -77,7 +78,10 @@ redirect_from:
   </div>
   <div class="education-list">
     <article class="education-item">
-      <div>
+      <div class="education-logo">
+        <img src="/assets/images/uc-san-diego-logo.svg" alt="UC San Diego logo">
+      </div>
+      <div class="education-body">
         <h3>University of California San Diego</h3>
         <p>M.S. in Electrical and Computer Engineering · GPA 3.7/4.0</p>
         <p class="education-detail">Coursework: Deep Generative Models, Natural Language Processing, and Recommender Systems.</p>
@@ -85,7 +89,10 @@ redirect_from:
       <time>2025 - 2027</time>
     </article>
     <article class="education-item">
-      <div>
+      <div class="education-logo">
+        <img src="/assets/images/xjtlu-logo.svg" alt="Xi’an Jiaotong-Liverpool University logo">
+      </div>
+      <div class="education-body">
         <h3>Xi’an Jiaotong-Liverpool University</h3>
         <p>B.S. in Computer Science · GPA 3.76/4.0</p>
         <p class="education-detail">Academic Achievement Scholarship, School of Advanced Technology (Top 10%).</p>
