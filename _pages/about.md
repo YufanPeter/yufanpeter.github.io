@@ -112,11 +112,11 @@ redirect_from:
         <a class="text-link" href="https://github.com/Cruise-pp/MedMARS" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
       </div>
       <figure class="project__visual project__visual--generated">
-        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/medmars-architecture-image2.png" target="_blank" rel="noopener" aria-label="Open the full-size MedMARS architecture diagram">
-          <img class="generated-diagram" src="{{ site.baseurl }}/images/medmars-architecture-image2.png" alt="MedMARS architecture: multimodal input enters a safety-aware orchestrator, optional vision analysis, diagnosis, medication GraphRAG, or hybrid medical QA before grounded synthesis and a patient-friendly response.">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/medmars-handdrawn-v2.png" target="_blank" rel="noopener" aria-label="Open the full-size illustrated MedMARS project story">
+          <img class="generated-diagram" src="{{ site.baseurl }}/images/medmars-handdrawn-v2.png" alt="Hand-drawn MedMARS story: a person shares a health question and medical image, an AI guide consults diagnosis, medication safety, and trusted health knowledge, then returns a reassuring answer.">
         </a>
         <figcaption class="generated-diagram__caption">
-          <span>CODE-VERIFIED ARCHITECTURE</span>
+          <span>ILLUSTRATED PROJECT STORY</span>
           <span>CLICK TO EXPAND ↗</span>
         </figcaption>
       </figure>
@@ -142,11 +142,11 @@ redirect_from:
         <p class="project__footnote">* Structured-query Recall@10.</p>
       </div>
       <figure class="project__visual project__visual--generated">
-        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/cartpilot-architecture-image2.png" target="_blank" rel="noopener" aria-label="Open the full-size CartPilot architecture diagram">
-          <img class="generated-diagram" src="{{ site.baseurl }}/images/cartpilot-architecture-image2.png" alt="CartPilot architecture: text, voice, and image inputs enter FastAPI; deterministic tools and VLM extraction feed hybrid retrieval using Chroma, BM25, reranking, SQLite facts, and session memory before structured SSE output to SwiftUI.">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/cartpilot-handdrawn-v2.png" target="_blank" rel="noopener" aria-label="Open the full-size illustrated CartPilot project story">
+          <img class="generated-diagram" src="{{ site.baseurl }}/images/cartpilot-handdrawn-v2.png" alt="Hand-drawn CartPilot story: a shopper asks by voice, text, or image; an AI guide discovers and compares products, then returns a small personalized selection.">
         </a>
         <figcaption class="generated-diagram__caption">
-          <span>CODE-VERIFIED ARCHITECTURE</span>
+          <span>ILLUSTRATED PROJECT STORY</span>
           <span>CLICK TO EXPAND ↗</span>
         </figcaption>
       </figure>
