@@ -111,80 +111,14 @@ redirect_from:
         </ul>
         <a class="text-link" href="https://github.com/Cruise-pp/MedMARS" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
       </div>
-      <figure class="project__visual project__visual--medical architecture" aria-label="Code-verified MedMARS LangGraph workflow">
-        <figcaption class="architecture__head">
-          <span>MEDMARS / LANGGRAPH RUNTIME</span>
-          <span class="verified-badge">CODE VERIFIED</span>
+      <figure class="project__visual project__visual--generated">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/medmars-architecture-image2.png" target="_blank" rel="noopener" aria-label="Open the full-size MedMARS architecture diagram">
+          <img class="generated-diagram" src="{{ site.baseurl }}/images/medmars-architecture-image2.png" alt="MedMARS architecture: multimodal input enters a safety-aware orchestrator, optional vision analysis, diagnosis, medication GraphRAG, or hybrid medical QA before grounded synthesis and a patient-friendly response.">
+        </a>
+        <figcaption class="generated-diagram__caption">
+          <span>CODE-VERIFIED ARCHITECTURE</span>
+          <span>CLICK TO EXPAND ↗</span>
         </figcaption>
-
-        <div class="med-ingress">
-          <div class="arch-source"><span>INPUT A</span><strong>TEXT QUERY</strong></div>
-          <div class="arch-source arch-source--optional"><span>INPUT B</span><strong>MEDICAL IMAGE</strong><small>optional</small></div>
-        </div>
-
-        <div class="med-router-card arch-card">
-          <span class="arch-step">01 / CONTROL</span>
-          <strong>ORCHESTRATOR</strong>
-          <div class="arch-pills"><span>Safety check</span><span>Context arbitration</span><span>Query rewrite</span><span>Intent routing</span></div>
-          <div class="med-router-card__exit"><span>emergency / self-harm</span><strong>SAFETY EXIT →</strong></div>
-        </div>
-
-        <div class="arch-flow-label"><span></span><strong>SAFE REQUEST</strong><span></span></div>
-
-        <div class="med-vision-row">
-          <div class="med-vision-card arch-card">
-            <span class="arch-step">02 / OPTIONAL VISION</span>
-            <strong>QWEN2-VL-7B + LORA</strong>
-            <small>Image analysis → clinical evidence</small>
-          </div>
-          <div class="med-vram-card">
-            <span>VRAM SCHEDULER</span>
-            <strong>Mistral ⇄ Qwen2-VL</strong>
-            <small>dynamic CPU / GPU swap</small>
-          </div>
-        </div>
-
-        <div class="med-knowledge-head"><span>03 / KNOWLEDGE ROUTING</span><span>ONE ACTIVE BRANCH</span></div>
-        <div class="med-branch-grid">
-          <div class="med-branch med-branch--diagnosis">
-            <span class="med-branch__code">A / SYMPTOMS</span>
-            <strong>DIAGNOSIS</strong>
-            <ol>
-              <li>Completeness gate</li>
-              <li>Follow-up loop</li>
-              <li>Mistral-7B + LoRA</li>
-            </ol>
-            <small>DDXPlus / differential diagnosis</small>
-          </div>
-          <div class="med-branch med-branch--medication">
-            <span class="med-branch__code">B / MEDICATION</span>
-            <strong>DRUG SAFETY</strong>
-            <ol>
-              <li>Drug extraction</li>
-              <li>Exact → fuzzy resolve</li>
-              <li>Pairwise DDI lookup</li>
-            </ol>
-            <small>DrugBank / SQLite GraphRAG</small>
-          </div>
-          <div class="med-branch med-branch--general">
-            <span class="med-branch__code">C / GENERAL QA</span>
-            <strong>HYBRID RAG</strong>
-            <ol>
-              <li>FAISS vector recall</li>
-              <li>BM25 + RRF fusion</li>
-              <li>Confidence gate</li>
-            </ol>
-            <small>MedQuAD / 47K QA pairs</small>
-          </div>
-        </div>
-
-        <div class="med-merge" aria-hidden="true"><span></span><strong>MERGE EVIDENCE</strong><span></span></div>
-        <div class="med-synth-card arch-card">
-          <span class="arch-step">04 / RESPONSE</span>
-          <strong>SYNTHESIZER</strong>
-          <div class="arch-pills"><span>Grounded response</span><span>Faithfulness check</span><span>Rolling summary</span></div>
-          <p><span class="status-dot"></span> PATIENT-FRIENDLY ANSWER</p>
-        </div>
       </figure>
     </article>
 
@@ -207,67 +141,14 @@ redirect_from:
         <a class="text-link" href="https://github.com/YufanPeter/E-commerce-AI-Agent" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
         <p class="project__footnote">* Structured-query Recall@10.</p>
       </div>
-      <figure class="project__visual project__visual--commerce architecture" aria-label="Code-verified CartPilot controlled agent and retrieval workflow">
-        <figcaption class="architecture__head">
-          <span>CARTPILOT / CONTROLLED AGENT</span>
-          <span class="verified-badge verified-badge--dark">CODE VERIFIED</span>
+      <figure class="project__visual project__visual--generated">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/cartpilot-architecture-image2.png" target="_blank" rel="noopener" aria-label="Open the full-size CartPilot architecture diagram">
+          <img class="generated-diagram" src="{{ site.baseurl }}/images/cartpilot-architecture-image2.png" alt="CartPilot architecture: text, voice, and image inputs enter FastAPI; deterministic tools and VLM extraction feed hybrid retrieval using Chroma, BM25, reranking, SQLite facts, and session memory before structured SSE output to SwiftUI.">
+        </a>
+        <figcaption class="generated-diagram__caption">
+          <span>CODE-VERIFIED ARCHITECTURE</span>
+          <span>CLICK TO EXPAND ↗</span>
         </figcaption>
-
-        <div class="cartpilot-ingress">
-          <div class="cartpilot-inputs"><span>TEXT</span><span>VOICE</span><span>IMAGE</span></div>
-          <div class="cartpilot-api arch-card">
-            <span class="arch-step">01 / INTERFACE</span>
-            <strong>FASTAPI / CHAT STREAM</strong>
-            <small>session state · REST · Server-Sent Events</small>
-          </div>
-        </div>
-
-        <div class="cartpilot-routing">
-          <div class="cartpilot-router arch-card">
-            <span class="arch-step">02 / DECIDE</span>
-            <strong>FUNCTION-CALLING ROUTER</strong>
-            <small>intent → rewritten query → confidence</small>
-          </div>
-          <div class="cartpilot-image arch-card">
-            <span class="arch-step">IMAGE PATH</span>
-            <strong>VLM QUERY EXTRACTION</strong>
-            <small>image → searchable product phrase</small>
-          </div>
-        </div>
-
-        <div class="cartpilot-tools">
-          <div class="cartpilot-tools__head"><span>03 / DETERMINISTIC TOOLS</span><span>7 ROUTES</span></div>
-          <div class="cartpilot-tools__grid">
-            <span class="is-primary">Recommend</span><span>Refine</span><span>Compare</span><span>Detail</span><span>Cart</span><span>Clarify</span><span>Fallback</span>
-          </div>
-        </div>
-
-        <div class="cartpilot-search">
-          <div class="cartpilot-search__head"><span>04 / RECOMMENDATION SEARCH</span><strong>HYBRID RAG</strong></div>
-          <div class="cartpilot-search__steps">
-            <div><span>01</span><strong>UNDERSTAND</strong><small>constraints + user memory</small></div>
-            <div><span>02</span><strong>HARD FILTER</strong><small>category · brand · SKU price</small></div>
-            <div><span>03A</span><strong>CHROMA</strong><small>vector evidence</small></div>
-            <div><span>03B</span><strong>BM25 + RRF</strong><small>lexical fusion</small></div>
-            <div><span>04</span><strong>RERANK</strong><small>optional relevance API</small></div>
-            <div><span>05</span><strong>AGGREGATE</strong><small>negative filters + product level</small></div>
-          </div>
-          <div class="cartpilot-visual-fusion"><span>IMAGE ONLY</span><strong>TEXT RELEVANCE 60%</strong><i>+</i><strong>VISUAL SIMILARITY 40%</strong></div>
-        </div>
-
-        <div class="cartpilot-facts-row">
-          <div><span>FACT SOURCE</span><strong>SQLITE</strong><small>products · SKUs · stock · cart</small></div>
-          <div><span>WORKING MEMORY</span><strong>SESSION</strong><small>last hits · constraints · references</small></div>
-        </div>
-
-        <div class="cartpilot-output">
-          <div class="cartpilot-result"><span>05</span><strong>STRUCTURED TOOL RESULT</strong></div>
-          <span class="cartpilot-output__arrow" aria-hidden="true">→</span>
-          <div class="cartpilot-composer"><span>06</span><strong>ANSWER COMPOSER</strong></div>
-          <span class="cartpilot-output__arrow" aria-hidden="true">→</span>
-          <div class="cartpilot-sse"><span>07</span><strong>SSE → SWIFTUI</strong></div>
-        </div>
-        <div class="cartpilot-events">session · status · meta · tool_result · token* · memory_update · done</div>
       </figure>
     </article>
   </section>
