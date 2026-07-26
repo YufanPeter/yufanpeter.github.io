@@ -77,12 +77,6 @@ redirect_from:
       </div>
     </div>
 
-    <div class="metric-strip" data-reveal>
-      <div><strong>+30%</strong><span>RCA pass rate</span></div>
-      <div><strong>96.5%</strong><span>Medical RAG Hit@5</span></div>
-      <div><strong>100%</strong><span>Agent routing accuracy</span></div>
-      <div><strong>3.7</strong><span>UCSD GPA / 4.0</span></div>
-    </div>
   </section>
 
   <section class="work section" id="work" aria-labelledby="work-title">
@@ -95,7 +89,6 @@ redirect_from:
     <article class="project project--medical" data-reveal>
       <div class="project__info">
         <div class="project__number">PROJECT / 01</div>
-        <p class="project__type">Multi-agent medical question answering</p>
         <h3>MedMARS</h3>
         <p class="project__lede">A LangGraph-based medical assistant that routes questions across diagnosis, medication consultation, general QA, and visual question answering.</p>
         <div class="project__metrics">
@@ -124,7 +117,10 @@ redirect_from:
     <article class="project project--commerce" data-reveal>
       <div class="project__info">
         <div class="project__number">PROJECT / 02</div>
-        <p class="project__type">ByteDance AI Full-Stack Challenge</p>
+        <div class="project__award" aria-label="ByteDance Project Excellence Award, 9 out of 80">
+          <img src="{{ site.baseurl }}/images/bytedance.svg" alt="ByteDance">
+          <div><strong>PROJECT EXCELLENCE AWARD</strong><span>9 OUT OF 80</span></div>
+        </div>
         <h3>Multimodal<br>E-commerce Agent</h3>
         <p class="project__lede">A controllable shopping agent combining image-text retrieval, deterministic tool orchestration, and structured streaming responses.</p>
         <div class="project__metrics">
