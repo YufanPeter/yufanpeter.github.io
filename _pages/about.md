@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 <div class="home-intro">
-  <p class="home-kicker"><span aria-hidden="true"></span>AI systems · agents · retrieval</p>
   <h1 id="home-title">Hi, I’m Yufan.</h1>
   <p class="home-lead">
     I’m an M.S. student in <strong>Electrical and Computer Engineering at UC San Diego</strong>.
@@ -24,8 +23,7 @@ redirect_from:
 
 <section class="home-section" id="research" aria-labelledby="focus-title">
   <div class="section-heading">
-    <p>Research</p>
-    <h2 id="focus-title">What I’m exploring</h2>
+    <h2 id="focus-title">Research</h2>
   </div>
   <div class="focus-grid focus-grid--three">
     <article class="focus-card">
@@ -48,15 +46,14 @@ redirect_from:
 
 <section class="home-section" id="experience" aria-labelledby="experience-title">
   <div class="section-heading">
-    <p>Experience</p>
-    <h2 id="experience-title">Microsoft</h2>
+    <h2 id="experience-title">Experience</h2>
   </div>
   <article class="experience-item experience-item--detailed">
     <div class="experience-mark"><img src="/assets/images/microsoft-symbol.svg" alt="Microsoft"></div>
     <div class="experience-body">
       <div class="experience-heading">
         <div>
-          <p class="experience-meta">App Development Intern</p>
+          <p class="experience-meta">Microsoft · App Development Intern</p>
           <h3>Multi-Agent Root Cause Analysis for Cloud Incidents</h3>
         </div>
         <time>Mar 2026 - Present</time>
@@ -73,8 +70,7 @@ redirect_from:
 
 <section class="home-section" id="education" aria-labelledby="education-title">
   <div class="section-heading">
-    <p>Education</p>
-    <h2 id="education-title">Academic background</h2>
+    <h2 id="education-title">Education</h2>
   </div>
   <div class="education-list">
     <article class="education-item">
@@ -104,8 +100,7 @@ redirect_from:
 
 <section class="home-section" id="publication" aria-labelledby="publication-title">
   <div class="section-heading">
-    <p>Publication</p>
-    <h2 id="publication-title">Selected writing</h2>
+    <h2 id="publication-title">Publication</h2>
   </div>
   <a class="publication-item" href="https://doi.org/10.1007/s10462-026-11538-1">
     <div>

@@ -365,26 +365,15 @@ a {
 }
 
 .section-heading {
-  display: grid;
-  grid-template-columns: minmax(7rem, 0.38fr) 1fr;
-  align-items: baseline;
-  gap: 1.25rem;
-  margin-bottom: 2rem;
-}
-
-.section-heading p {
-  margin: 0;
-  color: var(--soft-ink);
-  font-size: 0.72rem !important;
-  font-weight: 500;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+  margin-bottom: 1.6rem;
 }
 
 .section-heading h2 {
   margin: 0;
-  font-size: clamp(1.55rem, 2.4vw, 2rem);
+  color: var(--muted-ink);
+  font-size: 1.05rem;
   font-weight: 500;
+  letter-spacing: -0.015em;
 }
 
 .focus-grid {
@@ -830,11 +819,6 @@ a {
 
   .home-intro h1 {
     font-size: 2rem;
-  }
-
-  .section-heading {
-    grid-template-columns: 1fr;
-    gap: 0.35rem;
   }
 
   .focus-grid {
