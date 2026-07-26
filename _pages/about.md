@@ -36,15 +36,15 @@ redirect_from:
       <div class="hero__copy">
         <p class="section-index" data-reveal>01 / Profile</p>
         <h1 id="hero-title" data-reveal>
-          Building AI systems<br>
-          that <em>reason, retrieve,</em><br>
-          and recover.
+          AI engineer focused on<br>
+          <em>multimodal agents</em> and<br>
+          retrieval systems.
         </h1>
         <div class="hero__bottom" data-reveal>
           <p>
-            I'm Yufan Shi, an AI engineer focused on reliable agents,
-            retrieval-augmented generation, and multimodal systems.
-            Currently developing multi-agent root cause analysis at Microsoft.
+            I'm Yufan Shi, an M.S. ECE student at UC San Diego and
+            AI Application Development Intern at Microsoft. My work spans
+            multi-agent medical reasoning, multimodal retrieval, and production AI reliability.
           </p>
           <div class="hero__actions">
             <a class="button button--dark" href="#work">Explore selected work</a>
@@ -89,8 +89,8 @@ redirect_from:
   <section class="work section" id="work" aria-labelledby="work-title">
     <div class="section-head" data-reveal>
       <p class="section-index">02 / Selected work</p>
-      <h2 id="work-title">Systems with measurable<br><em>intelligence.</em></h2>
-      <p>From retrieval quality to production reliability, I design the full path between a user question and a trustworthy answer.</p>
+      <h2 id="work-title">Selected AI <em>projects.</em></h2>
+      <p>Multi-agent medical reasoning and multimodal shopping systems—from retrieval and orchestration to user-facing applications.</p>
     </div>
 
     <article class="project project--medical" data-reveal>

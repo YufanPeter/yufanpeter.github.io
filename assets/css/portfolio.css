@@ -202,6 +202,7 @@ h1 em, h2 em { font-family: var(--serif); font-weight: 400; }
 .section-head > p:last-child { max-width: 28rem; margin: 0; color: var(--muted); font-size: 1rem; line-height: 1.6; }
 .projects { padding-top: clamp(5rem, 7vw, 7rem); padding-bottom: clamp(5rem, 7vw, 7rem); }
 .projects .section-head { margin-bottom: clamp(2.5rem, 4vw, 4rem); }
+.projects .section-head h2 { font-size: clamp(2.6rem, 4.6vw, 4.75rem); letter-spacing: -0.055em; }
 
 .project { display: grid; grid-template-columns: minmax(480px, 1.2fr) minmax(360px, .8fr); margin-top: 2px; border-top: 1px solid var(--ink); }
 .project__info { position: relative; display: flex; flex-direction: column; align-items: flex-start; padding: clamp(2rem, 3vw, 3rem) clamp(2rem, 3.5vw, 4rem) clamp(2.5rem, 3.5vw, 3.5rem) 0; }
