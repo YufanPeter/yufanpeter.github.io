@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f2f0e8">
+    {% include seo.html %}
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Yufan Shi - AI Systems Engineer">
+    <meta property="og:description" content="AI agents, retrieval systems, and multimodal intelligence.">
+    {% if site.og_image %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/{{ site.og_image }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/{{ site.og_image }}">
+    {% endif %}
+    <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/images/favicon.svg">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/portfolio.css?v={{ site.time | date: '%s' }}">
+    <script>document.documentElement.className = 'js';</script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {{ content }}
+    <script src="{{ site.baseurl }}/assets/js/portfolio.js" defer></script>
+  </body>
+</html>

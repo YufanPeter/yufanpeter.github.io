@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Yufan (Peter) Shi"
 title_separator          : "-"
 name                     : &name "Yufan Shi"
-description              : &description "Yufan Shi is an ECE graduate student at UC San Diego working on reliable AI agents, retrieval-augmented generation, and multimodal systems."
+description              : &description "Yufan Shi builds reliable AI agents, retrieval systems, and multimodal intelligence."
 url                      : https://yufanpeter.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -143,8 +143,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "images/yufan-shi-og.png"
+og_description           : "Yufan Shi - AI Systems Engineer"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
