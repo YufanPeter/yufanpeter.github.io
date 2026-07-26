@@ -112,11 +112,11 @@ redirect_from:
         <a class="text-link" href="https://github.com/Cruise-pp/MedMARS" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
       </div>
       <figure class="project__visual project__visual--generated">
-        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/medmars-handdrawn-pipeline-v3.png" target="_blank" rel="noopener" aria-label="Open the full-size hand-drawn MedMARS pipeline">
-          <img class="generated-diagram" src="{{ site.baseurl }}/images/medmars-handdrawn-pipeline-v3.png" alt="Hand-drawn MedMARS pipeline: ask with text and image, understand safety and intent, consult diagnosis, medication, medical QA, and vision branches, synthesize grounded evidence, then respond with a clear and safe answer.">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/medmars-handdrawn-pipeline-v4.png" target="_blank" rel="noopener" aria-label="Open the full-size code-verified MedMARS multi-agent pipeline">
+          <img class="generated-diagram" src="{{ site.baseurl }}/images/medmars-handdrawn-pipeline-v4.png" alt="Hand-drawn MedMARS pipeline: an orchestrator performs safety, intent routing, and query rewriting; an optional Vision Agent precedes Diagnosis, Medication, or General QA subagents; evidence then merges into a faithfulness-aware synthesizer and a clear, safe response.">
         </a>
         <figcaption class="generated-diagram__caption">
-          <span>HAND-DRAWN PROJECT PIPELINE</span>
+          <span>CODE-VERIFIED HAND-DRAWN PIPELINE</span>
           <span>CLICK TO EXPAND ↗</span>
         </figcaption>
       </figure>
@@ -142,11 +142,11 @@ redirect_from:
         <p class="project__footnote">* Structured-query Recall@10.</p>
       </div>
       <figure class="project__visual project__visual--generated">
-        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/cartpilot-handdrawn-pipeline-v3.png" target="_blank" rel="noopener" aria-label="Open the full-size hand-drawn CartPilot pipeline">
-          <img class="generated-diagram" src="{{ site.baseurl }}/images/cartpilot-handdrawn-pipeline-v3.png" alt="Hand-drawn CartPilot pipeline: ask by text, voice, or image, route through shopping tools, retrieve with filters, vectors, and keywords, compare and personalize, then deliver product cards and an answer with a memory feedback loop.">
+        <a class="generated-diagram__link" href="{{ site.baseurl }}/images/cartpilot-handdrawn-pipeline-v4.png" target="_blank" rel="noopener" aria-label="Open the full-size code-verified CartPilot controlled-agent pipeline">
+          <img class="generated-diagram" src="{{ site.baseurl }}/images/cartpilot-handdrawn-pipeline-v4.png" alt="Hand-drawn CartPilot pipeline: text and voice enter a function router while images use VLM extraction and bypass routing; seven deterministic tools use structured facts, selected recommendation paths run hybrid retrieval, and ToolResult flows through a composer and SSE to SwiftUI.">
         </a>
         <figcaption class="generated-diagram__caption">
-          <span>HAND-DRAWN PROJECT PIPELINE</span>
+          <span>CODE-VERIFIED HAND-DRAWN PIPELINE</span>
           <span>CLICK TO EXPAND ↗</span>
         </figcaption>
       </figure>
