@@ -448,11 +448,14 @@ a {
   width: 3.25rem;
   height: 3.25rem;
   place-items: center;
-  border-radius: 8px;
-  color: var(--page-bg);
-  background: var(--accent);
-  font-size: 1.05rem;
-  font-weight: 500;
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  background: var(--surface-solid);
+}
+
+.experience-mark img {
+  width: 2rem;
+  height: 2rem;
 }
 
 .experience-item .experience-meta {

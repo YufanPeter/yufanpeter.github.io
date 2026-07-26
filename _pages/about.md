@@ -52,7 +52,7 @@ redirect_from:
     <h2 id="experience-title">Microsoft</h2>
   </div>
   <article class="experience-item experience-item--detailed">
-    <div class="experience-mark" aria-hidden="true">M</div>
+    <div class="experience-mark"><img src="/assets/images/microsoft-symbol.svg" alt="Microsoft"></div>
     <div class="experience-body">
       <div class="experience-heading">
         <div>
